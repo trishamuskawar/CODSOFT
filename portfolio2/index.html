@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+     <nav>
+        <input type="checkbox" class="checkbox" id="check">
+        <h1 class="nav_head"> Protfolio.</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+        </ul>
+
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+     </nav>
+
+     <section id="home" class="home">
+        <img src="./image/3d-cartoon.avif" alt="" width="350px" height="300px">
+        <div class="description">
+            <h1>Hello I'm <br><span>Trisha Muskawar</span></h1>
+            <h2>I'm a <span> Web Developer...</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aspernatur, ex omnis a explicabo magnam dolore dolor consequuntur totam nihil provident unde molestiae eligendi sequi culpa voluptates quidem voluptas reiciendis!</p>
+            <div class="font">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fas fa-phone"></i>
+            </div>
+            <button>Download CV</button>
+        </div>
+     </section>
+
+     <section id="about" class="about">
+        <div class="about_section">
+            <h1>About <span>Me</span></h1>
+            <h2>Web <span>Developer!</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eum odit praesentium possimus ratione repudiandae eligendi distinctio eaque quam, iure, deleniti, ipsam voluptate labore dicta ducimus error architecto odio repellendus!</p>
+            <button class="about_btn">Read More..</button>
+        </div>
+        <div class="about_photo">
+            <img src="./image/3d-cartoon.avif" alt="" width="320px" height="260px">
+        </div>
+     </section>
+
+     <section id="service">
+        <h1 class="service_section">My <span>Serivces</span></h1>
+        <div class="card">
+            <div class="serivce_card">
+                <i class="fas fa-computer"></i>
+                <h2>Game Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iure nulla modi culpa dignissimos rem eaque soluta quod, maiores quisquam consequatur distinctio cupiditate eos dolor nobis magnam voluptatum natus. Reiciendis?</p>
+                <a href="#">Read More...</a>
+            </div>
+
+            <div class="serivce_card">
+                <i class="fas fa-computer"></i>
+                <h2>Frontend Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iure nulla modi culpa dignissimos rem eaque soluta quod, maiores quisquam consequatur distinctio cupiditate eos dolor nobis magnam voluptatum natus. Reiciendis?</p>
+                <a href="#">Read More...</a>
+            </div>
+
+            <div class="serivce_card">
+                <i class="fas fa-computer"></i>
+                <h2>Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iure nulla modi culpa dignissimos rem eaque soluta quod, maiores quisquam consequatur distinctio cupiditate eos dolor nobis magnam voluptatum natus. Reiciendis?</p>
+                <a href="#">Read More...</a>
+            </div>
+        </div>
+     </section>
+
+     <section id="project">
+        <h1 class="project-section">My <span> Project</span> </h1>
+        <div class="box">
+            <div class="project_box">
+                <div class="photo">
+                    <img src="./image/landing-page.png" alt="" width="350px" height="300px">
+                </div>
+                <div class="text">
+                    <h1>Landing Page</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, magnam cumque. Itaque impedit earum ab. Cupiditate, natus libero ullam nulla ut rem, voluptatibus ratione nesciunt, necessitatibus eveniet cumque.</p>
+                </div>
+            </div>
+            <div class="project_box">
+                <div class="photo">
+                    <img src="./image/survey-form.jpeg" alt="" width="350px" height="295px">
+                </div>
+                <div class="text">
+                    <h1>Survey Form</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, magnam cumque. Itaque impedit earum ab. Cupiditate, natus libero ullam nulla ut rem, voluptatibus ratione nesciunt, necessitatibus eveniet cumque. </p>
+                </div>
+            </div>
+            <div class="project_box">
+                <div class="photo">
+                    <img src="./image/amazon.jpeg" alt="" width="350px" height="290px">
+                </div>
+                <div class="text">
+                    <h1>Amazon Clone</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium amet ipsam error quae ipsa quasi itaque maiores voluptatibus nesciunt, maxime deserunt, iusto vitae nihil corrupti. Nostrum numquam obcaecati eum. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+
+            <div class="input_box">
+                <input type="text" placeholder=" Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            
+            <div class="input_box">
+                <input type="number" placeholder="Phone Number">
+                
+            </div>
+            
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Submit" class="btn">
+        </form>
+     </section>
+
+     <div class="credit"> Created By <span> Trisha Muskawar</span> || All Rights Reserved...</div>
+</body>
+</html>
